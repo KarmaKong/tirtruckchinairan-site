@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://karmakong.github.io/tirtruckchinairan-site/sitemap.xml
