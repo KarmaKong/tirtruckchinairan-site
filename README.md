@@ -1,6 +1,6 @@
 # TIR Truck China–Iran
 
-A trilingual static website. HTML + one CSS file. No framework, build step, runtime JavaScript, backend, form or external font service.
+A trilingual static website. Static HTML, one shared CSS file and a small native JavaScript enhancement for mobile navigation/disclosures. No framework, build step, backend, form or external font service.
 
 - Website: https://karmakong.github.io/tirtruckchinairan-site/
 - Repository: https://github.com/KarmaKong/tirtruckchinairan-site
@@ -36,7 +36,7 @@ The referenced conversation supplied the Persian copy, English home/TIR copy, co
 ## Assets and licensing
 Fonts are redistributed under the adjacent upstream licence files: Vazirmatn and IBM Plex from google/fonts; Source Han Sans SC from adobe-fonts/source-han-sans. Subsets preserve Persian shaping features and contain only needed glyphs. The small Chinese language chip uses system fonts on other locales to avoid downloading the Chinese body font.
 
-Hero illustration was generated for this site. Responsive assets are 480px and 960px square AVIF with WebP fallback. The Open Graph image is a separate 1200×630 PNG for crawler compatibility. The favicon is a simple original seal/document mark.
+Approved brand-refresh imagery uses AVIF with WebP fallback for hero and truck; the carnet panel uses WebP. The Open Graph image is a separate 1200×630 PNG. The supplied SVG wordmarks use path outlines; the favicon contains only their seal icon. Previous lock/favicon and obsolete hero assets have been removed.
 
 ## Performance and accessibility
 Non-image budget is measured as raw HTML + shared CSS + font subsets loaded by that homepage, without relying on compression. Hosting/network conditions affect LCP; report observed audit results, never promise every visitor a sub-two-second load.
