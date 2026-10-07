@@ -1,44 +1,24 @@
 # TIR Truck China–Iran
 
-A trilingual static website. Static HTML, one shared CSS file and a small native JavaScript enhancement for mobile navigation/disclosures. No framework, build step, backend, form or external font service.
+Static truck-freight service website. Persian: /. English: /en/. Chinese: /zh/.
 
-- Website: https://karmakong.github.io/tirtruckchinairan-site/
-- Repository: https://github.com/KarmaKong/tirtruckchinairan-site
-- Persian root (`dir="rtl"`), English `/en/`, Chinese `/zh/`
-- Each locale contains home, `tir/`, `routes/`, `quote/`, `articles/`
-- CTA destinations: https://wa.me/8613454701600 and mailto:sales@tirtruckchinairan.com
+Each locale contains home, routes/times (routes/), trucks/cargo (tir/), enquiry (quote/) and guides (articles/). Existing URLs remain valid. Guides now summarize shipment planning and link to relevant service pages.
 
-## Run and deploy
-Open a directory through any static HTTP server. GitHub Pages serves the root of the `main` branch. `.nojekyll` disables Jekyll processing. No compilation is necessary. Edit the HTML and CSS directly and push to main.
+## Contact
+WhatsApp: +86 134 5470 1600
+Email: sales@tirtruckchinairan.com
 
-## Domains and SEO
-Canonical, hreflang, Open Graph and sitemap URLs use the actual GitHub Pages URL. No custom-domain binding or DNS change is claimed. When `tirtruckchinairan.com` is ready, configure DNS and Pages, add the CNAME file, and replace the base URL consistently in all HTML, JSON-LD, sitemap and robots.txt. A project-level robots.txt is provided; only the host-root robots.txt controls crawling for github.io, so this file becomes authoritative only on a custom domain.
+## Content and assets
+The October 8, 2026 rewrite implements the user-approved homepage copy and aligns subpages with truck freight enquiries. Factual references: https://chinairantrucks.com/, https://chinairantrucks.com/en/, https://chinairantrucks.com/zh.html. Rewritten copy excludes the reference site's Telegram, email and prohibited service claims.
 
-Organization data identifies the brand and known public sales contacts; it does not invent a legal entity, registered address or TIR authorisation. FAQPage markup appears only on home and TIR pages where the same FAQs are visibly present. Structured data does not promise search-engine rich results.
+The supplied brand package provides logos, local fonts and the road-going truck illustration. It is labelled as an illustration, not evidence of a real fleet. Seal and carnet photographs are removed. Open Graph uses assets/images/og-truck.jpg, 1200 × 630.
 
-## Content provenance and corrections
-The referenced conversation supplied the Persian copy, English home/TIR copy, contacts, route structures and operating ranges. Its export truncated during the English routes page. Remaining English and Chinese content was completed from those available facts, rather than claimed as a verbatim recovered final draft.
+## Development
+No build or framework is required. Serve this directory using any static HTTP server, such as python3 -m http.server 8765 --bind 127.0.0.1. Edit HTML and shared CSS directly. Native JavaScript only enhances mobile navigation; content, links and FAQ work without it.
 
-- The 0.4% Kyrgyzstan item is retained as a supplied quotation-brief item, with classification, applicability and assessment basis subject to per-shipment confirmation. Official guidance describes a customs operations fee; the site does not assert a universal TIR transit tax.
-- TIR is not portrayed as intrinsically changing neither time nor price in all situations. This service makes no speed or price guarantee.
-- The seal-status line is an operational diagram, not a live status feed or an unchanged-seal-number claim.
-- Direct Wuqia configuration has one Bukhara transload. The other configuration has Osh and Bukhara transloads, with a possible additional Iran-border transload. Khorgos transload details remain unspecified.
-- CPT and DAP have different risk-transfer rules; each shipment's named place and contract govern.
-- All transit ranges are brief-supplied references requiring reconfirmation, not real-time verified schedules or commitments.
-- Articles lists ten planned editorial topics, not fictitious published articles.
-- The homepage seal photograph is an AI-generated illustration and is labelled in all languages. Replace it with an authorised real operating photograph when available.
+## SEO and deployment
+Unique titles/descriptions, canonicals, corresponding language alternates, Organization and Service data. FAQPage exists only alongside matching visible FAQ. Sitemap and robots use the Pages origin.
 
-## Sources
-- https://unece.org/transport/tir
-- https://unece.org/sites/default/files/2025-01/TIR-6Rev12e_0.pdf
-- https://invest.gov.kg/en/invest-compass/taxes/customs
+GitHub Pages deploys the root of main at https://karmakong.github.io/tirtruckchinairan-site/.
 
-## Assets and licensing
-Fonts are redistributed under the adjacent upstream licence files: Vazirmatn and IBM Plex from google/fonts; Source Han Sans SC from adobe-fonts/source-han-sans. Subsets preserve Persian shaping features and contain only needed glyphs. The small Chinese language chip uses system fonts on other locales to avoid downloading the Chinese body font.
-
-Approved brand-refresh imagery uses AVIF with WebP fallback for hero and truck; the carnet panel uses WebP. The Open Graph image is a separate 1200×630 PNG. The supplied SVG wordmarks use path outlines; the favicon contains only their seal icon. Previous lock/favicon and obsolete hero assets have been removed.
-
-## Performance and accessibility
-Non-image budget is measured as raw HTML + shared CSS + font subsets loaded by that homepage, without relying on compression. Hosting/network conditions affect LCP; report observed audit results, never promise every visitor a sub-two-second load.
-
-Semantic landmarks, a skip link, visible keyboard focus, native FAQ disclosure, language attributes, explicit image dimensions and table captions are provided. Colours are checked against AA contrast. Automated checks do not replace a complete assistive-technology audit.
+No custom domain is currently configured. Do not assume tirtruckchinairan.com serves this repository. If a verified custom domain is added later, update canonical, hreflang, Open Graph, JSON-LD, sitemap, robots and 404 links together.

@@ -1,30 +1,28 @@
-# Documents & Seals
+# China to Iran TIR truck service
 
-## 1. Approved visual reference
-The user-supplied brand-refresh package contains the approved vector lockups and desktop/mobile mockups in the left halves of its comparison images. Those assets are the visual reference. This implementation preserves the repository's existing copy and numbers, even where the mockup contains different wording. No alternative brand direction was introduced.
+## 1. Visual theme
+Paper-and-ink freight branding, focused on purchasing truck transport. Approved service copy leads with origins, destinations, times, capacity and quotation. The road-going curtainsider illustration replaces the seal close-up.
 
 ## 2. Palette
-Paper `#F6F3EC`, ink `#0B2545`, ordinary seal accents `#E8590C`, white-text CTA backgrounds `#C2410C`, secondary text `#646B75`. Orange status text uses the darker accessible CTA colour. White/CTA contrast is 5.18:1; muted/paper is 4.86:1.
+Paper #F6F3EC; ink #0B2545; decorative orange #E8590C; white-text CTA #C2410C; muted copy #646B75; rules #B5BABD. Square controls, no gradients or decorative shadows.
 
 ## 3. Typography
-Self-hosted Vazirmatn for Persian, IBM Plex Sans for English, Source Han Sans SC for Chinese, IBM Plex Mono for codes and figures. All fonts use swap. Preserve the Chinese extra-glyph subset and language-chip system fallbacks. Desktop Persian hero is 64px at 1440px; mobile 32.8px. Body copy and legal qualifications are unchanged.
+Retain approved local fonts: Vazirmatn for Persian, IBM Plex Sans for English, Source Han Sans SC with system fallback for Chinese. Font display is swap. Latin identifiers use bdi in RTL. Body 16px, line height 1.65 English and 1.85 Persian/Chinese; responsive headings; tabular numerals for tables.
 
 ## 4. Components
-Use the supplied path-based `logo.svg` in headers, `logo-fa.svg` in Persian footers, `logo-mono.svg` in other footers and 404. Organization metadata uses `logo.svg`; OG uses the refreshed composition. Favicon is only the seal icon, without lock or TIR letters. Square CTA buttons, fine table rules, native FAQ details, small outline UI icons.
+Static HTML, semantic tables, ordered route nodes, six transport steps and native FAQ details. Every main section ends in an enquiry CTA. WhatsApp and mailto open the customer's contact tools without automatically sending messages.
 
 ## 5. Layout
-Shared logical-property CSS, maximum outer width 1392px, 40px desktop and 24px mobile gutters. Persian desktop hero keeps copy left and photograph right; desktop routes run left to right in geographical sequence. Text inside route nodes follows the document language. Enquiry uses checklist/contact/truck columns. Named section classes avoid styling unrelated subpages by their ordinal position.
+Home: hero, four figures, options/times, two routes, mode comparison, six steps, cargo, quotation, FAQ. Desktop section headings occupy a narrow side column. Subpages answer geography, time, capacity and ordering in that order. Existing /tir/ URLs now describe trucks and cargo.
 
-## 6. Decoration
-One independent seal-number strip under the hero. Two circular stamps already appear inside the supplied hero/truck images; do not overlay additional stamps. Subpage intros use one supplied stamp. One carnet group has two perforated edges. At most two coordinate annotations per page, on the route sections only. Header/footer lockups retain their integral brand seal lines.
-
-Coordinate annotations are approximate border-area locations, never loading or transload points: Irkeshtam ≈39.70 N / 73.93 E; Khorgos ≈44.21 N / 80.40 E. Sources: [Irkeshtam](https://mapcarta.com/N273356521), [Khorgos](https://mapcarta.com/N243659742), both based on OpenStreetMap. Rounding is deliberate; do not treat the labels as dispatch navigation.
+## 6. Depth
+Flat paper, thin separators and restrained dashed rules. Preserve approved logos and serial lines. The truck image includes an existing stamp. No extra decoration competes with service data.
 
 ## 7. Content constraints
-Keep WhatsApp `+86 134 5470 1600` and existing email; no Telegram. Wuqia direct configuration marks the existing Bukhara transload. Khorgos nodes denote geography only, with `مورد به مورد` / `case by case` / `一单一询`; do not invent handling points. Never replace the original route caveats, transit numbers, customs conditions or scope limitations with text from the mockup. The illustrative photograph's existing AI-generated caption remains visible.
+Use approved trilingual copy and chinairantrucks.com reference facts. Wuqia direct loads transload once at Bukhara. Khorgos time and transfers are case by case. Both 96 CBM and 25-tonne ceilings apply. Groupage starts at 1 CBM or 100 kg. Current ranges and delivery terms appear once per page. No prohibited claims, Telegram, battery acceptance, fleet counts, tracking or insurance amounts.
 
-## 8. Responsive and interaction
-Below 760px the hero image precedes the text and Wuqia becomes a vertical route. Mobile navigation and selected sections use native buttons with expanded/control attributes, including Enter/Space activation; Escape in the navigation returns focus to its menu button. Breakpoint changes restore desktop headings and all content. Without JavaScript all navigation and content remain available. FAQ items retain native details/summary. No animation except optional pointer press feedback; respect reduced motion and forced colours.
+## 8. Responsive behavior
+760px navigation breakpoint. Phone service sections stay visible; routes become vertical ordered lists. Mobile hero puts service and enquiry before the illustration. Keyboard focus, skip link, native FAQ and Escape-to-close menu. No entrance animations; pointer press feedback respects reduced motion.
 
-## 9. Editing guidance
-Keep HTML static, preserve SEO and language alternates, and use one shared stylesheet plus the small progressive-enhancement script. Do not add a framework or external font service. Match the supplied photo crops, document borders, warm paper and seal accents. Preserve text when adjusting density. Screenshot both 1440px and 390px, and also check every language at 375px. Any difference retained to protect existing copy must be identified in the verification notes.
+## 9. Maintenance
+Use one shared assets/site.css file with logical properties. Preserve colors, fonts, square buttons, verified data and locale routes. Section spacing follows --section-space. Check all three languages at desktop and phone widths after editing.
