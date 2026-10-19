@@ -17,8 +17,6 @@ The supplied brand package provides logos, local fonts and the road-going truck 
 No build or framework is required. Serve this directory using any static HTTP server, such as python3 -m http.server 8765 --bind 127.0.0.1. Edit HTML and shared CSS directly. Native JavaScript only enhances mobile navigation; content, links and FAQ work without it.
 
 ## SEO and deployment
-Unique titles/descriptions, canonicals, corresponding language alternates, Organization and Service data. FAQPage exists only alongside matching visible FAQ. Sitemap and robots use the Pages origin.
+Unique titles/descriptions, canonicals, corresponding language alternates, Organization and Service data. FAQPage exists only alongside matching visible FAQ. Sitemap and robots use https://tirtruckchinairan.com.
 
-GitHub Pages deploys the root of main at https://karmakong.github.io/tirtruckchinairan-site/.
-
-No custom domain is currently configured. Do not assume tirtruckchinairan.com serves this repository. If a verified custom domain is added later, update canonical, hreflang, Open Graph, JSON-LD, sitemap, robots and 404 links together.
+GitHub Pages deploys the root of main to https://tirtruckchinairan.com/. Keep canonical, hreflang, Open Graph, JSON-LD, sitemap and robots on that origin.
