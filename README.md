@@ -2,7 +2,7 @@
 
 Static truck-freight service website. Persian: /. English: /en/. Chinese: /zh/.
 
-Each locale contains home, routes/times (routes/), trucks/cargo (tir/), enquiry (quote/) and guides (articles/). Existing URLs remain valid. Guides now summarize shipment planning and link to relevant service pages.
+Each locale contains home, routes/times (routes/), trucks/cargo (tir/), enquiry (quote/) and guides (articles/). Existing URLs remain valid. Guides summarize shipment planning and link to relevant service pages; the first long-form article lives at articles/tir-truck-explained/ with /en/ and /zh/ equivalents.
 
 ## Contact
 WhatsApp: +86 134 5470 1600
