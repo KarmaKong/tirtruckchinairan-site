@@ -19,7 +19,7 @@ Home: hero, four figures, options/times, two routes, mode comparison, six steps,
 Flat paper, thin separators and restrained dashed rules. Preserve approved logos and serial lines. The truck image includes an existing stamp. No extra decoration competes with service data.
 
 ## 7. Content constraints
-Use approved trilingual copy and chinairantrucks.com reference facts. Wuqia direct loads transload once at Bukhara. Khorgos time and transfers are case by case. Both 80 CBM and 25-tonne ceilings apply. Groupage starts at 1 CBM or 100 kg. Current ranges and delivery terms appear once per page. No prohibited claims, Telegram, battery acceptance, fleet counts, tracking or insurance amounts.
+Use approved trilingual copy and chinairantrucks.com reference facts. Wuqia direct loads transload once at Bukhara. Khorgos time and transfers are case by case. Both 80 CBM and 22-tonne ceilings apply. Groupage starts at 1 CBM or 100 kg. Current ranges and delivery terms appear once per page. No prohibited claims, Telegram, battery acceptance, fleet counts, tracking or insurance amounts.
 
 ## 8. Responsive behavior
 760px navigation breakpoint. Phone service sections stay visible; routes become vertical ordered lists. Mobile hero puts service and enquiry before the illustration. Keyboard focus, skip link, native FAQ and Escape-to-close menu. No entrance animations; pointer press feedback respects reduced motion.
