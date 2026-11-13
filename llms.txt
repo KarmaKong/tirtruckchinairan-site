@@ -1,0 +1,43 @@
+# tirtruckchinairan.com
+
+> TIR truck freight from China to Iran. Curtain-side semi-trailers, up to 80 CBM and 22 tonnes per truck. Full truckload and groupage (groupage from 1 CBM or 100 kg). Delivery to Iranian customs terminals on CPT / DAP terms. No published rates; formal quotations by email.
+> 中国到伊朗 TIR 卡车运输。篷布半挂车，单车不超过 80 立方、22 吨。整车与拼货（拼货起运 1 CBM 或 100 kg）。按 CPT / DAP 交到伊朗海关场站。网上不挂运价，正式报价通过邮件发送。
+
+## Facts / 口径
+
+- Mode / 模式: TIR truck, China → Iran. Hub-to-customs only: not door-to-door, not DDP. Import clearance and duties in Iran stay with the buyer. 只做仓到关 / 站到关，不做门到门、不做 DDP；伊朗进口清关与缴税由买方负责。
+- Exit crossings / 出境口岸: Wuqia and Khorgos (Xinjiang). No day counts are published for the Khorgos line. 乌恰与霍尔果斯；霍尔果斯线不写天数。
+- Entry into Iran / 伊朗入境口岸: Sarakhs. Entry is not the same as the point of delivery, and it is not a clearance point for us. 萨拉赫斯入境；入境口岸不等于交货地，也不等于我方清关地。
+- Destination terminals / 目的地场站: West Tehran Customs (Gomrok Gharb), Aprin dry port, Mashhad Customs. 德黑兰西海关、Aprin 陆港、马什哈德海关。
+- Transit time / 时效: counted from the Wuqia crossing, direct truck currently 21–23 days to Tehran and 18–21 days to Mashhad; transshipment trailers 26–30 days to Tehran and 24–28 days to Mashhad. The domestic leg (China hub to Wuqia) is counted separately, about 7 days. These are current ranges, not guarantees. 自乌恰口岸起算：直达车目前 21–23 天到德黑兰、18–21 天到马什哈德；换装车 26–30 天到德黑兰、24–28 天到马什哈德。国内段另计约 7 天。均为当前运行区间，不作为时效承诺。
+- Equipment / 车型: 13.6 m curtain-side semi-trailer; one truck carries no more than 80 CBM and no more than 22 tonnes. Cargo above either limit is quoted as a second truck. 13.6 米篷布半挂；单车不超过 80 立方、22 吨；超限拆车报价。
+- Cargo / 货物: general cargo, photovoltaic and electrical equipment, industrial machinery, polymer granules and chemical raw materials. Lithium batteries must be declared at inquiry with a 16-section MSDS and UN packaging documents; undeclared lithium is refused. Cargo needing MSDS (powders, liquids, chemicals) should send it with the inquiry. 光伏与电力设备、工业机械、塑胶与化工原料等；锂电池须询价时申报并附 16 项 MSDS 与 UN 包装资料，未申报拒收。
+- Quote inputs / 询价资料: origin warehouse (Yiwu / Shenzhen / Guangzhou / Shanghai), destination customs, and cargo data (commodity, HS code, gross weight in kg, volume in CBM). 起运仓、目的海关、货物三项资料（品名、HS 编码、毛重 kg、体积 CBM）。
+- Contact / 联系: sales@tirtruckchinairan.com · WhatsApp +86 134 5470 1600
+
+## Indexable pages / 可索引页面
+
+https://tirtruckchinairan.com/
+https://tirtruckchinairan.com/tir/
+https://tirtruckchinairan.com/routes/
+https://tirtruckchinairan.com/quote/
+https://tirtruckchinairan.com/articles/
+https://tirtruckchinairan.com/articles/tir-truck-explained/
+https://tirtruckchinairan.com/articles/several-suppliers-one-truck/
+https://tirtruckchinairan.com/articles/tir-does-not-change-time-or-freight/
+https://tirtruckchinairan.com/en/
+https://tirtruckchinairan.com/en/tir/
+https://tirtruckchinairan.com/en/routes/
+https://tirtruckchinairan.com/en/quote/
+https://tirtruckchinairan.com/en/articles/
+https://tirtruckchinairan.com/en/articles/tir-truck-explained/
+https://tirtruckchinairan.com/en/articles/several-suppliers-one-truck/
+https://tirtruckchinairan.com/en/articles/tir-does-not-change-time-or-freight/
+https://tirtruckchinairan.com/zh/
+https://tirtruckchinairan.com/zh/tir/
+https://tirtruckchinairan.com/zh/routes/
+https://tirtruckchinairan.com/zh/quote/
+https://tirtruckchinairan.com/zh/articles/
+https://tirtruckchinairan.com/zh/articles/tir-truck-explained/
+https://tirtruckchinairan.com/zh/articles/several-suppliers-one-truck/
+https://tirtruckchinairan.com/zh/articles/tir-does-not-change-time-or-freight/
